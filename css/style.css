@@ -21,7 +21,6 @@
     width: 1080px;
 }
 
-
 /* Page bar */
 
 .page-bar{
@@ -120,4 +119,52 @@
 section.flex {
     justify-content: center;
     align-items: center;
+}
+
+
+/* footer */
+
+footer {
+    background-color: rgb(46, 46, 46);
+
+}
+
+
+.footer-start {
+    justify-content: center;
+}
+
+
+
+.footer-pink {
+    margin: 20px 0px;
+    background-color: pink;
+    height: 500px;
+    width: 20%;
+    
+}
+
+.footer-blue {
+    margin: 20px 0px;
+    background-color: aqua;
+    height: 500px;
+    width: 10%;
+    border: 2px solid white;
+}
+
+
+
+
+.footer-end {
+    justify-content: center;
+    align-content: flex-end;
+    
+}
+
+
+.endbar {
+    margin-top: 20px;
+    background-color: lightblue;
+    width: 50%;
+    height: 200px;
 }
