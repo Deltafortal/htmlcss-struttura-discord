@@ -57,3 +57,18 @@
 }
 
 
+
+/* Jumbotron */
+
+.front {
+    background-color: blue;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+}
+
+.jumbotron {
+    background-color: rgb(170, 96, 170);
+    width: 60%;
+    height: 80%;
+}
