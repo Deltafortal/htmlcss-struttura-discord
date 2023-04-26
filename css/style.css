@@ -16,7 +16,10 @@
     flex-flow: row;
 }
 
-
+.container {
+    margin: auto;
+    width: 1080px;
+}
 
 
 /* Page bar */
@@ -28,10 +31,6 @@
     align-items: center;
 }
 
-.container {
-    margin: auto;
-    width: 1080px;
-}
 
 
 .bar {
@@ -71,4 +70,54 @@
     background-color: rgb(170, 96, 170);
     width: 60%;
     height: 80%;
+}
+
+
+
+/* sections */
+
+.section-white , .section-gray {
+    height: 500px;
+}
+
+
+.section-white {
+    background-color: white;
+}
+
+
+.section-gray {
+    background-color: gray;;
+}
+
+.special-section {
+    height: 800px;
+    background-color: gray;
+}
+
+
+/* Contents */
+
+.content-blue {
+    background-color: lightblue;
+    height: 400px;
+    width: 40%;
+}
+
+
+.content-pink {
+    background-color: pink;
+    height: 400px;
+    width: 20%;
+}
+
+.content-green {
+    background-color: green;
+    height: 700px;
+    width: 60%;
+}
+
+section.flex {
+    justify-content: center;
+    align-items: center;
 }
