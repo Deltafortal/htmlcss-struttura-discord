@@ -11,7 +11,7 @@
 
 /* Utils */
 
-.container-flex {
+.flex {
     display: flex;
     flex-flow: row;
 }
@@ -19,21 +19,41 @@
 
 
 
-/* header */
+/* Page bar */
 
-#page-bar{
+.page-bar{
     background-color: lightblue;
-    min-height: 70px;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
 }
 
-.front {
-
-}
-
-.jumbotron {
-
+.container {
+    margin: auto;
+    width: 1080px;
 }
 
 
+.bar {
+    background-color: orange;
+    justify-content: center;
+    align-items: center;
+    
+}
 
-/* main */
+.logo , .login , .home {
+    border: 2px solid black;
+    height: 50px;
+}
+
+
+.logo , .login{
+    min-width: 20%;
+    
+}
+
+.home {
+    min-width: 60%;
+}
+
+
