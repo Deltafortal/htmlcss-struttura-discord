@@ -1,0 +1,39 @@
+/* CSS Reset */ 
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Custom proprieties */
+
+
+/* Utils */
+
+.container-flex {
+    display: flex;
+    flex-flow: row;
+}
+
+
+
+
+/* header */
+
+#page-bar{
+    background-color: lightblue;
+    min-height: 70px;
+}
+
+.front {
+
+}
+
+.jumbotron {
+
+}
+
+
+
+/* main */
